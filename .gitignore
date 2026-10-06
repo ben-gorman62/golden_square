@@ -1,1 +1,5 @@
-golden_venv/
+.DS_Store
+testing_bites/golden_venv/
+testing_bites/htmlcov/
+testing_bites/.coverage
+testing_bites/.pytest_cache
