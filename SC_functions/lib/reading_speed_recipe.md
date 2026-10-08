@@ -17,8 +17,6 @@ _Include the name of the function, its parameters, return value, and side effect
 ```python
 # EXAMPLE
 
-import datetime
-
 def time_to_read(text):
     """ Function to check how long it will take to read a document, given an average reading speed of 200 wpm.
 
