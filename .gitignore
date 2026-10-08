@@ -1,5 +1,6 @@
 .DS_Store
-testing_bites/golden_venv/
-testing_bites/htmlcov/
-testing_bites/.coverage
-testing_bites/.pytest_cache
+**/htmlcov/
+**/.coverage
+**/.pytest_cache
+**/__pytest_cache
+**/__pycache__
