@@ -14,6 +14,9 @@ def make_snippet(text):
     word_list = text.split(" ")
     return " ".join(word_list[:5]) + ("..." if len(word_list) > 5 else "")
 
-def time_to_read(text):
-    total_words = len(total_words.split())
-    print(total_words)
+def count_words(text):
+    if text == "":
+        return 0
+    else:
+        return len(text.split(" "))
+
